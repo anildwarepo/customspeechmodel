@@ -8,7 +8,7 @@ The custom speech model has been trained with a couple of audio files and a sing
 
     - Azure Speech Service provisioned with subscription key and region information
 
-    - A sample audio file with domain specific words and a pronounciation file - available in the data folder
+    - A sample audio file with domain specific words and a pronounciation file - available in the data/testset folder
 
     - Custom Speech Model trained using the training dataset using Azure Speech studio 
 
