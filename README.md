@@ -67,7 +67,7 @@ From CLI
 This creates a transcription and outputs it to the cli window. 
 
 
-* Note: This repo is forked from the main repo https://github.com/anildwarepo/cognitive-services-speech-sdk
+* Note: This repo is forked from the main repo https://github.com/Azure-Samples/cognitive-services-speech-sdk
 
 
 
