@@ -15,10 +15,10 @@ namespace BatchClient
     public class Program
     {
         // Replace with your subscription key
-        public const string SubscriptionKey = "088def595bb44daa8e5674ab5821b8e3";
+        public const string SubscriptionKey = "";
 
         // Update with your service region
-        public const string Region = "westus2";
+        public const string Region = "";
 
         // replace with your app service name (check publish on webhook receiver project)
         public const string WebHookAppServiceName = "YourAppServiceName";
@@ -28,7 +28,7 @@ namespace BatchClient
 
         // recordings and locale
         private const string Locale = "en-US";
-        private static Uri RecordingsBlobUri = new Uri("https://anildwablobstorage.blob.core.windows.net/public/names-testset2.mp3?sv=2021-08-06&st=2023-02-21T15%3A19%3A38Z&se=2024-02-22T15%3A19%3A00Z&sr=b&sp=r&sig=NKFovZlOiTcDCoO4LeRJCfYpQFko8QCRZiay4BZjBS8%3D");
+        private static Uri RecordingsBlobUri = new Uri("https://<your storage account>.blob.core.windows.net/<your container>/<your audio file>");
         //private static Uri ContentAzureBlobContainer = new Uri("<SAS URI pointing to an container in Azure Blob Storage>");
         private static Uri WebHookCallbackUrl = new Uri($"https://{WebHookAppServiceName}.azurewebsites.net/api/callback");
 
