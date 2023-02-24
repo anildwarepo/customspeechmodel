@@ -17,11 +17,16 @@ The custom speech model has been trained with a couple of audio files and a sing
 
 
 
-The custom speech model is trained using two audio files and a single pronounciation files all combined in a single zip folder. This zip folder is then uploaded to the speech data set in speech studio. 
+The custom speech model is trained using two audio files and a single pronounciation file all combined in a single zip folder. This zip folder is then uploaded to the speech data set in speech studio. 
 
 ![speech data set](./images/speech-dataset.png)
 
-Once the model is trained, the model id is retrived required for the transcription job.
+
+Create a custom speech model, by creating a new training job in speech studio and pointing it to the training-set which has both audio files and pronounication file. 
+
+![custom model id](./images/train-custom-model.png)
+
+Once the model is trained, the model id is retrived that is required for the transcription job.
 
 ![custom model id](./images/custom-model-id.png)
 
