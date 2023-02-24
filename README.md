@@ -8,7 +8,7 @@ The custom speech model has been trained with a couple of audio files and a sing
 
     - Azure Speech Service provisioned with subscription key and region information
 
-    - A sample audio file with domain specific words and a pronounciation file - available in the data/testset folder
+    - A sample audio file with domain specific words and a pronounciation file - available in the data/training-set folder
 
     - Custom Speech Model trained using the training dataset using Azure Speech studio 
 
@@ -25,7 +25,7 @@ Once the model is trained, the model id is retrived required for the transcripti
 
 ![custom model id](./images/custom-model-id.png)
 
-Provide the speech service subscription key, region and url to the audio file that needs to the tested. 
+Provide the speech service subscription key, region and url to the audio file that needs to the tested. A sample audio file is provided in the data/testset folder.
 The transcription job can be submitted by providing the required information and running the project using dotnet run from cli.
 
 
